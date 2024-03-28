@@ -14,7 +14,15 @@
     width:50%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    gap:5px;
+    color:red;
+}
+.hexvalue,.rgbvalue{
+    color:white;
+    font-size:22px;
+    font-weight:bold;
 }
 #hexbtn{
     padding:10px;
@@ -41,4 +49,23 @@ input,label{
     padding:10px; 
     color:white;
     font-size:22px;
+}
+/* rgb btn  */
+.rgbbtn{
+    padding:10px;
+    width:100px;
+    background-color:rgb(218, 74, 211);
+    color:white;
+    border-radius:7px;
+    border:none;
+    margin-bottom:5px;
+}
+#copyColorHex,#copyColorRgb{
+    padding:10px;
+    width:100px;
+    background-color:rgb(109, 172, 87);
+    color:white;
+    border-radius:7px;
+    border:none;
+    box-shadow:0 0 5px white;
 }
